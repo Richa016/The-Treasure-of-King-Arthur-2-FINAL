@@ -6,7 +6,7 @@ class Ground{
         this.y = y;
         this.width = width;
         this.height = height;
-        this.image = loadImage("images/ground.png");
+        this.image = loadImage("images/ground.PNG");
 
     }
 
