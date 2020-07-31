@@ -107,24 +107,7 @@ function draw() {
 
   
 
-  if(stage != 4){
-    
-   
-
-    push()
-    textSize(15);
-    fill("black");
-    text("Arrow Keys To Move", 10, 40);
-    text("SPACEBAR for Jump", 10, 60);
-
-    if(stage === 2){
-
-      text("'q' for Bullets", 10, 80);
-
-    }
-    pop()
-
-  }
+  
   
 
   //all global functions
@@ -268,6 +251,28 @@ function draw() {
 
     button.hide();
     video.position(670, 100);
+
+  }
+
+  if(stage != 4){
+    
+    if(stage != 0){
+
+      push()
+      textSize(15);
+      fill("black");
+      text("Arrow Keys To Move", 10, 40);
+      text("SPACEBAR for Jump", 10, 60);
+  
+      if(stage === 2){
+  
+        text("'q' for Bullets", 10, 80);
+  
+      }
+      pop()
+      
+    }
+    
 
   }
 
